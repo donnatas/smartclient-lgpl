@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "prompt-sync": "4.2.0",
+    "unzipper": "^0.10.11"
+  },
+  "deprecated": false,
+  "description": "Installs SmartClient LGPL SDK",
+  "devDependencies": {},
+  "directories": {},
+  "keywords": [
+    "smartclient"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "iscnpmjs",
+      "email": "npmjs-admin@isomorphic.com"
+    }
+  ],
+  "name": "smartclient-lgpl",
+  "optionalDependencies": {},
+  "scripts": {
+    "install": "node update.js",
+    "uninstall": "node uninstall.js",
+    "update": "node update.js"
+  },
+  "version": "1.0.1",
+  "bin": {
+    "smartClientInstall": "./update.js",
+    "smartClientUninstall": "./uninstall.js"
+  }
+}
